@@ -88,13 +88,13 @@ const Logo = styled.img`
 const Menu = styled.nav`
   ul {
     display: flex;
-
     flex-wrap: wrap;
   }
   li {
     margin-left: 50px;
     letter-spacing: 5.4px;
   }
+
   @media (max-width: 600px) {
     display: none;
   }
