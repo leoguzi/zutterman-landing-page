@@ -13,16 +13,18 @@ export default function TopContent() {
 }
 
 const ContentContainer = styled.div`
-  height: 600px;
+  height: 1024px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
   span {
     font-size: 82px;
     font-weight: bold;
     color: #716565;
+    margin-right: 20px;
   }
 
   img {
@@ -31,19 +33,21 @@ const ContentContainer = styled.div`
   }
 
   @media (max-width: 600px) {
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: 511px;
+    padding: 0 20px;
 
     span {
+      align-self: flex-start;
       font-size: 53px;
       font-weight: bold;
       color: #716565;
     }
 
     img {
-      max-width: 285px;
-      max-height: 140px;
+      width: 100%;
+      object-fit: contain;
     }
   }
 `;
