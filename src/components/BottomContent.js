@@ -17,7 +17,7 @@ export default function BottomContent() {
 
 const ContentContainer = styled.div`
   background-color: #506fa9;
-  height: 1024px;
+  height: 900px;
   margin: 0 auto;
   color: #ffffff;
   position: relative;
@@ -49,7 +49,7 @@ const ContentContainer = styled.div`
 const TextContainer = styled.div`
   position: absolute;
   top: 300px;
-  left: 50px;
+  left: 100px;
   display: flex;
   flex-direction: column;
   max-width: 488px;
@@ -66,8 +66,7 @@ const TextContainer = styled.div`
   }
 
   @media (max-width: 600px) {
-    margin-top: 60px;
-    top: 25px;
+    top: 60px;
     left: 20px;
     span:first-child {
       font-size: 41.2px;

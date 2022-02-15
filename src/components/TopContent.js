@@ -13,7 +13,7 @@ export default function TopContent() {
 }
 
 const ContentContainer = styled.div`
-  height: 1024px;
+  height: 850px;
   margin: 0 auto;
   display: flex;
   align-items: center;
